@@ -1,6 +1,6 @@
 # Author:  Jason Lowe
 # Date:  September 4, 2017
-# Purpose:  
+# Purpose:  Complete Part III of the Homework Assignment for Module 2 (Johns Hopkins University - Course 606)
 
 
 # Import ArcPy
