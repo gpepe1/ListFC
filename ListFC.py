@@ -8,7 +8,7 @@ import arcpy
  
 
 # Set the workspace
- arcpy.env.workspace = r'E:\GIS\School\3Programming\Assignment2(1)\Assignment2\Newark.gdb'
+arcpy.env.workspace = r'E:\GIS\School\3Programming\Assignment2(1)\Assignment2\Newark.gdb'
 
 # List all of the feature classes in the Newark geodatabase 
 arcpy.ListFeatureClasses()
