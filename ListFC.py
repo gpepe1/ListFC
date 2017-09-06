@@ -1,6 +1,6 @@
-# Author:  
-# Date:
-# Purpose:  
+# Author:   James Jones
+# Date:     5 September 2016
+# Purpose:  To iterate through a workspace and pring the names of feature classes.
 
 
 # Import ArcPy
