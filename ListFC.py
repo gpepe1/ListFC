@@ -1,21 +1,15 @@
-# Author:  
-# Date:
-# Purpose:  
+# Author:  Daniel Cassiday
+# Date: 9/10/17
+# Purpose:  Programming in GIS
 
 
-# Import ArcPy
 import arcpy
- 
 
-# Set the workspace
- 
+arcpy.env.workspace = r"C:\Users\DC\Documents\GIS\4. Fall 2017\Programming in GIS\Week 2\Assignment2(1)\Assignment2"
 
-# List all of the feature classes in the Newark geodatabase 
+fcList = arcpy.ListFeatureClasses("","","Newark.gdb")
 
+for fc in fcList:
+    print (fc)
 
-# Iterate through all the feature classes and print the name of each feature class 
-
-
-# Print "Complete"
-
-
+print ("Complete")
